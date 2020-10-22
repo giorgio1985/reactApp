@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import NavBar from "./NavBar/NavBar";
+import Footer from "./Footer/Footer";
 import * as serviceWorker from './serviceWorker';
 
 
@@ -10,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <NavBar/>
     <App />
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
