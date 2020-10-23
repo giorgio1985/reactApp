@@ -8,9 +8,6 @@ class App extends Component {
 <div className="App">
  <header className="App-header">
    
-        <p>
-          Prima Home Page con react js!
-        </p>
        
    </header>
 </div>
